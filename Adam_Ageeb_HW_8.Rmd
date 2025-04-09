@@ -23,14 +23,14 @@ summary(reg_creatinine)
 plot(creatinine$age, creatinine$creatclear)
 ```
 
-I used the lm() fucntion in base R to find the regression line equation of "expected_creatine_clearance = -0.61982*age + 147.81292. I plugge din 55 for age to find the expected creatine clearance for a 55-year-old to be an about 113.72 mL/minute.
+I used the lm() function in base R to find the regression line equation of "expected_creatinine_clearance = -0.61982*age + 147.81292. I plugged in 55 for age to find the expected creatinine clearance for a 55-year-old to be an about 113.72 mL/minute.
 
 #### Part B
 ```{r, echo = FALSE, message=FALSE, warning=FALSE}
 
 ```
 
-Based on the regression line creatine clearance decreases by 0.61982 mL/minute for every additonal year of life. This is the slope of the regression line equation.
+Based on the regression line creatinine clearance decreases by 0.61982 mL/minute for every additional year of life. This is the slope of the regression line equation.
 
 #### Part C
 ```{r, echo = FALSE, message=FALSE, warning=FALSE}
@@ -38,7 +38,7 @@ Based on the regression line creatine clearance decreases by 0.61982 mL/minute f
 112 - (60*(-0.61982) + 147.81292)
 ```
 
-I'll determine this by finding which person has the best creatine clearance in comparison to what they're expected to be have. The 40-year-old has a creatine clearance 11.98 mL/minute higher than epxcted compared to the 60-year-old who only exceeded expectations by 1.38 mL/minute. The 40-year-old is healthier for their age.
+I'll determine this by finding which person has the best creatinine clearance in comparison to what they're expected to be have. The 40-year-old has a creatinine clearance 11.98 mL/minute higher than excepted compared to the 60-year-old who only exceeded expectations by 1.38 mL/minute. The 40-year-old is healthier for their age.
 
 
 ### Problem 2
